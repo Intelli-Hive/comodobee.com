@@ -41,7 +41,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(300);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -55,10 +55,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Gündem Yapı Denetim</span>
-                <h1>{`Merhaba! Gündem Yapı Denetime`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hoşgeldiniz", "Welcome", "Benvenuto" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <span className="tagline">Comodo Bee</span>
+                <h1>{`Otonom Arıcılığa`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hoşgeldiniz", "Welcome", "Benvenuto" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Comodo Bee; arıcılıkta insan gücünü minimize ederek enerji ve zamandan tasarruf sağlayan yenilikçi bir otonom arı kovanı sistemidir. Sensörler ve tek kartlı bilgisayarlarla donatılmış bu akıllı kovan, sıcaklık, nem, bal hasadı ve arı sağlığı gibi kritik süreçleri otomatik olarak yönetir. Kullanıcılar, mobil uygulama üzerinden kovanlarını uzaktan takip edip kontrol edebilirler. Comodo Bee, arıcılığı daha verimli, sürdürülebilir ve teknolojik hale getirmek için geliştirilmiştir.</p>
+                  <button onClick={() => console.log('connect')}>Bizimle İletişime Geçin! <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
