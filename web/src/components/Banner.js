@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/kovan.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Hoşgeldiniz", "Welcome", "Benvenuto" ];
+  const toRotate = ["Hoşgeldiniz", "Welcome", "Benvenuto"];
   const period = 2000;
 
   useEffect(() => {
@@ -54,19 +54,19 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Comodo Bee</span>
-                <h1>{`Otonom Arıcılığa`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hoşgeldiniz", "Welcome", "Benvenuto" ]'><span className="wrap">{text}</span></span></h1>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Comodo Bee</span>
+                  <h1>{`Otonom Arıcılığa`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hoşgeldiniz", "Welcome", "Benvenuto" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Comodo Bee; arıcılıkta insan gücünü minimize ederek enerji ve zamandan tasarruf sağlayan yenilikçi bir otonom arı kovanı sistemidir. Sensörler ve tek kartlı bilgisayarlarla donatılmış bu akıllı kovan, sıcaklık, nem, bal hasadı ve arı sağlığı gibi kritik süreçleri otomatik olarak yönetir. Kullanıcılar, mobil uygulama üzerinden kovanlarını uzaktan takip edip kontrol edebilirler. Comodo Bee, arıcılığı daha verimli, sürdürülebilir ve teknolojik hale getirmek için geliştirilmiştir.</p>
                   <button onClick={() => console.log('connect')}>Bizimle İletişime Geçin! <ArrowRightCircle size={25} /></button>
-              </div>}
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>
