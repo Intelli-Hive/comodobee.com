@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/comodobee.com/static/css/main.c1a577c6.css",
-    "main.js": "/comodobee.com/static/js/main.6d4922aa.js",
+    "main.js": "/comodobee.com/static/js/main.d1a45a17.js",
     "static/js/787.fb771931.chunk.js": "/comodobee.com/static/js/787.fb771931.chunk.js",
     "static/media/banner-bg.jpg": "/comodobee.com/static/media/banner-bg.0557e9121f083405b0bc.jpg",
-    "static/media/kovan.png": "/comodobee.com/static/media/kovan.72f47d3ce37ca13e95c0.png",
     "static/media/haber1.png": "/comodobee.com/static/media/haber1.1e5321a89ff270959be2.png",
     "static/media/haber3.png": "/comodobee.com/static/media/haber3.ad9e1b3d411bb5dbfc07.png",
     "static/media/color-sharp.png": "/comodobee.com/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/haber2.png": "/comodobee.com/static/media/haber2.198d2c77d628b199fa3b.png",
     "static/media/color-sharp2.png": "/comodobee.com/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/logo.svg": "/comodobee.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/kovan.png": "/comodobee.com/static/media/kovan.2f38d55656db29cae597.png",
     "static/media/CentraNo2-Bold.ttf": "/comodobee.com/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/comodobee.com/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/comodobee.com/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -27,11 +27,11 @@
     "static/media/nav-icon1.svg": "/comodobee.com/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/comodobee.com/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.c1a577c6.css.map": "/comodobee.com/static/css/main.c1a577c6.css.map",
-    "main.6d4922aa.js.map": "/comodobee.com/static/js/main.6d4922aa.js.map",
+    "main.d1a45a17.js.map": "/comodobee.com/static/js/main.d1a45a17.js.map",
     "787.fb771931.chunk.js.map": "/comodobee.com/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1a577c6.css",
-    "static/js/main.6d4922aa.js"
+    "static/js/main.d1a45a17.js"
   ]
 }
